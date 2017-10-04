@@ -19,6 +19,9 @@
     flex: 1 1 auto;
 }
 
+code {
+    word-wrap: break-word;
+}
 code.indent-1 {
     margin-left: 1rem;
 }
@@ -51,7 +54,7 @@ body {
 }
 
 .wireframe-container.extra-wide figure img {
-    max-width: 30rem;
+    max-width: 100%;
 }
 
 figcaption {
@@ -107,6 +110,10 @@ em {
     margin-top: 1em;
 }
 
+
+.citation-list a {
+    word-wrap: break-word;
+}
 
 @media (min-width: 54.125em) {
     body {
