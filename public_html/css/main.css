@@ -45,12 +45,16 @@ section.style-section {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    padding: 2rem 2rem 1rem 2rem;
+    padding: 2rem 2rem;
 }
 
 .wireframe-container {
     display: flex;
     flex-wrap: wrap;
+}
+
+.wireframe-container.extra-wide figure {
+    margin: 0;
 }
 
 .wireframe-container.extra-wide figure img {
@@ -62,7 +66,7 @@ figcaption {
 }
 
 .wireframe-container figure img {
-    max-width: 20rem;
+    max-width: 100%;
 }
 
 .color-swatch-container {
@@ -119,5 +123,8 @@ em {
     body {
         font-family: 'Open Sans', sans-serif;
         padding: 7em 7em;
+    }
+    .wireframe-container figure img {
+        max-width: 20rem;
     }
 }
