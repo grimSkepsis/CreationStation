@@ -1,0 +1,32 @@
+/*https://css-tricks.com/dont-overthink-flexbox-grids/*/
+.grid {
+    display: block;
+}
+
+.grid.demo .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252342;
+    color: white;
+    border: solid;
+    border-color: white;
+}
+
+.col {
+    flex: 1;
+}
+
+.col.one-third {
+    flex-basis: 33%;
+}
+
+.col.two-third {
+    flex-basis: 66%;
+}
+
+@media (min-width: 54.125em) {
+    .grid {
+        display: flex;
+    }
+}

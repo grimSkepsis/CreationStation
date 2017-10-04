@@ -1,0 +1,110 @@
+@import "equipment-listing.css";
+@import "hamburger-nav.css";
+@import "grid.css";
+@import "form.css";
+@import "text-styles.css";
+@import "header.css";
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+/*code section*/
+.code-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #343436;
+    color: white;
+    padding: 1em 1em;
+    flex: 1 1 auto;
+}
+
+code.indent-1 {
+    margin-left: 1rem;
+}
+
+code.indent-2 {
+    margin-left: 2rem;
+}
+
+code.indent-3 {
+    margin-left: 3rem;
+}
+
+section.style-section {
+    display: flex;
+
+}
+
+.example-container {
+    flex: 1 1 auto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 5em 5em;
+}
+
+.wireframe-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wireframe-container.extra-wide figure img {
+    max-width: 30rem;
+}
+
+figcaption {
+    width: 100%;
+}
+
+.wireframe-container figure img {
+    max-width: 20rem;
+}
+
+.color-swatch-container {
+    width: 100%;
+}
+
+.color-swatch-container div {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.color-swatch-container div:nth-child(1) {
+    background-color: #423C97;
+}
+
+.color-swatch-container div:nth-child(2) {
+    background-color: #F6772B;
+}
+
+.color-swatch-container div:nth-child(3) {
+    background-color: #252342;
+}
+
+.color-swatch-container div:nth-child(4) {
+    background-color: #3C7532;
+}
+
+.color-swatch-container div:nth-child(5) {
+    background-color: #4F8E44;
+}
+
+section {
+    margin-bottom: 5rem;
+}
+
+em {
+    font-weight: bold;
+}
+
+/*utility section*/
+.spaced-top {
+    margin-top: 1em;
+}
+
+

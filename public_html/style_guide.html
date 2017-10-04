@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head lang="en">
+    <title>Creation Station - Style Guide</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans%7CRoboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/main.js"></script>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<header>
+    <div class="header-branding">
+        <figure>
+            <img class="logo" src="img/logo2.png" alt="Creation Station Logo">
+        </figure>
+        <h2>
+            Creation Station
+        </h2>
+    </div>
+    <nav>
+        <div class="link-container">
+            <a href="index.html">Wireframes</a>
+            <a href="style_guide.html" class="selected">Style Guide</a>
+            <a href="citations.html">Citations</a>
+        </div>
+    </nav>
+    <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</header>
+
+<h1>Styleguide</h1>
+<section>
+    <h2>
+        Interactive Elements
+    </h2>
+
+    <section id="in-text-link">
+        <h3>In Text Link</h3>
+        <div class="example-container">
+            <p>This <a href="#">link</a> is in text.</p>
+        </div>
+        <div class="code-container">
+            <code>
+                &lt;p&gt;This &lt;a href="#"&gt;link&lt;/a&gt; is in text. &lt;/p&gt;
+            </code>
+        </div>
+    </section>
+
+    <section id="nav-button">
+        <h3>Navigation Buttons</h3>
+        <a href="#" class="nav-link">Nav Button</a>
+
+        <div class="code-container spaced-top">
+
+            <code>&lt;a class="nav-link"&gt;Rent&lt;/a&gt;</code>
+        </div>
+    </section>
+
+    <section id="buttons">
+        <h3>Buttons</h3>
+        <input type="submit" value="Submit"> <input type="reset" value="Reset">
+        <div class="code-container spaced-top">
+            <code>
+                &lt;input type="submit" value="Submit"&gt; &lt;input type="reset" value="Reset"&gt;
+            </code>
+        </div>
+    </section>
+
+    <section id="text-input-and-label">
+        <h3>Text Input</h3>
+        <label for="dummy-input">search</label>
+        <input id="dummy-input" type="text" placeholder="equipment, tools, etc.">
+        <div class="code-container spaced-top">
+            <code>
+                &lt;label for="dummy-input"&gt;search&lt;/label&gt;
+                &lt;input id="dummy-input" type="text" placeholder="equipment, tools, etc."&gt;
+            </code>
+        </div>
+    </section>
+</section>
+<section>
+    <h2>
+        Combined Elements
+    </h2>
+
+    <section id="main-nav">
+        <h3>Main Navigation</h3>
+        <p>For our site we use simple navigation links in the header which collapse down to a hamburger menu on smaller
+            screens. Note: the hamburger menu in this example will appear oddly placed within the screen when pressed,
+            for a proper demonstration please try the actual menu in the header of this style guide.</p>
+        <nav>
+            <div class="link-container">
+                <a href="index.html">Wireframes</a>
+                <a href="style_guide.html" class="selected">Style Guide</a>
+                <a href="citations.html">Citations</a>
+            </div>
+        </nav>
+        <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="code-container spaced-top">
+            <code>&lt;nav&gt;</code>
+            <code class="indent-1">&lt;a class="selected" href="index.html"&gt;Wireframes&lt;/a&gt;</code>
+            <code class="indent-1">&lt;a href="style_guide.html" class="selected"&gt;Style Guide&lt;/a&gt;</code>
+            <code class="indent-1">&lt;a href="citations.html"&gt;Citations&lt;/a&gt;</code>
+            <code>&lt;/nav&gt;</code>
+            <code>&lt;div class="hamburger"&gt;</code>
+            <code class="indent-1">&lt;div&gt;&lt;/div&gt;</code>
+            <code class="indent-1">&lt;div&gt;&lt;/div&gt;</code>
+            <code class="indent-1">&lt;div&gt;&lt;/div&gt;</code>
+            <code>&lt;/div&gt;</code>
+        </div>
+    </section>
+
+    <section id="equipment-listing">
+        <h3>Equipment Listing</h3>
+        <div class="grid equipment-listing">
+            <div class="col">
+                <figure class="equipment-figure">
+                    <img src="img/cnc-router.jpg" alt="Image of a CNC router">
+                </figure>
+            </div>
+            <div class="col">
+                <div class="equipment-description">
+                    <h3>CNC Router</h3>
+                    <p>We have one five by twelve CNC router on location that is suitable for cutting most woods,
+                        plastics,
+                        foams, and soft metals. Current rental rates start at $20 per hour of cutting.</p>
+                    <a class="nav-link" href="#">Rent</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="code-container spaced-top">
+            <code>&lt;div class="grid equipment-listing"&gt;</code>
+            <code class="indent-1">&lt;div class="col"&gt;</code>
+            <code class="indent-2">&lt;figure class="equipment-figure"&gt;</code>
+            <code class="indent-3">&lt;img src="img/cnc-router.jpg" alt="Image of a CNC router"&gt;</code>
+            <code class="indent-2">&lt;/figure&gt;</code>
+            <code class="indent-1">&lt;/div&gt;</code>
+            <code class="indent-1">&lt;div class="col"&gt;</code>
+            <code class="indent-2">&lt;div class="equipment-description"&gt;</code>
+            <code class="indent-3">&lt;h3&gt;CNC Router&lt;/h3&gt;</code>
+            <code class="indent-3">&lt;p&gt;We have one five by twelve CNC router on location that is suitable
+                for cutting most woods, plastics,
+                foams, and soft metals. Current rental rates start at $20 per hour of cutting.&lt;/p&gt;</code>
+            <code class="indent-3">&lt;a class="nav-link" href="#"&gt;Rent&lt;/a&gt;</code>
+            <code class="indent-2">&lt;/div&gt;</code>
+            <code class="indent-1">&lt;/div&gt;</code>
+            <code>&lt;/div&gt;</code>
+        </div>
+    </section>
+
+    <section id="grid-structure">
+        <h3>Grid Structure</h3>
+        <p>For grid structures we utilize a flex grid system that allows for a variety of symmetrical and asymmetrical
+            column distributions which can collapse to a single column on mobile.</p>
+        <div class="grid demo">
+            <div class="col">col 1/2</div>
+            <div class="col">col 1/2</div>
+        </div>
+        <div class="grid demo">
+            <div class="col two-third">col 2/3</div>
+            <div class="col one-third">col 1/3</div>
+        </div>
+        <div class="grid demo">
+            <div class="col">col 1/5</div>
+            <div class="col">col 1/5</div>
+            <div class="col">col 1/5</div>
+            <div class="col">col 1/5</div>
+            <div class="col">col 1/5</div>
+        </div>
+        <div class="code-container spaced-top">
+            <code>
+                &lt;div class="grid demo"&gt;
+            </code>
+            <code class="indent-1">
+                &lt;div class="col"&gt;col 1/2&lt;/div&gt;
+            </code>
+            <code class="indent-1">
+                &lt;div class="col"&gt;col 1/2&lt;/div&gt;
+            </code>
+            <code>
+                &lt;/div&gt;
+            </code>
+            <code>
+                &lt;div class="grid demo"&gt;
+            </code>
+            <code class="indent-1">
+                &lt;div class="col two-third"&gt;col 2/3&lt;/div&gt;
+            </code>
+            <code class="indent-1">
+                &lt;div class="col one-third"&gt;col 1/3&lt;/div&gt;
+            </code>
+            <code>
+                &lt;/div&gt;
+            </code>
+            <code>
+                &lt;div class="grid demo"&gt;
+            </code>
+            <code class="indent-1">
+                &lt;div class="col"&gt;col 1/5&lt;/div&gt;
+            </code>
+            <code class="indent-1">
+                &lt;div class="col"&gt;col 1/5&lt;/div&gt;
+            </code>
+            <code class="indent-1">
+                &lt;div class="col"&gt;col 1/5&lt;/div&gt;
+            </code>
+            <code class="indent-1">
+                &lt;div class="col"&gt;col 1/5&lt;/div&gt;
+            </code>
+            <code class="indent-1">
+                &lt;div class="col"&gt;col 1/5&lt;/div&gt;
+            </code>
+            <code>
+                &lt;/div&gt;
+            </code>
+        </div>
+    </section>
+
+    <section id="brand-colours">
+        <h3>Brand Colours</h3>
+        <p>The brand mainly makes use of light purple and orange to highlight navigation, titles, and ui elements
+            throughout. These colours are part of an overall triadic colour scheme, with the other colours being used
+            situationally to accent certain images, ui, etc.</p>
+        <div class="color-swatch-container grid">
+            <div class="col">#423C97</div>
+            <div class="col">#F6772B</div>
+            <div class="col">#252342</div>
+            <div class="col">#3C7532</div>
+            <div class="col">#3C7532</div>
+        </div>
+    </section>
+</section>
+<section>
+    <h2>
+        Text Style
+    </h2>
+
+    <section id="headers">
+        <h3>Headers</h3>
+        <div class="example-container">
+            <h1>This is an H1</h1>
+            <h2>This is an H2</h2>
+            <h3>This is an H3</h3>
+        </div>
+        <div class="code-container">
+            <code>
+                &lt;h1&gt;This is an H1&lt;/h1&gt;
+            </code>
+            <code>
+                &lt;h2&gt;This is an H2&lt;/h2&gt;
+            </code>
+            <code>
+                &lt;h3&gt;This is an H3&lt;/h3&gt;
+            </code>
+        </div>
+    </section>
+
+    <section id="paragraph">
+        <h3>Paragraph</h3>
+        <p>
+            This is a paragraph.
+        </p>
+
+        <div class="code-container">
+            <code>&lt;p&gt;This is a paragraph&lt;/p&gt;</code>
+        </div>
+    </section>
+
+    <section id="bulleted-list">
+        <h3>Bulleted List</h3>
+        <ul>
+            <li>I am item 1</li>
+            <li>I am item 2</li>
+            <li>I am item 3</li>
+        </ul>
+        <div class="code-container">
+            <code>
+                &lt;ul&gt;
+            </code>
+            <code class="indent-1">
+                &lt;li&gt;I am item 1&lt;/li&gt;
+            </code>
+            <code class="indent-1">
+                &lt;li&gt;I am item 2&lt;/li&gt;
+            </code>
+            <code class="indent-1">
+                &lt;li&gt;I am item 3&lt;/li&gt;
+            </code>
+            <code>
+                &lt;/ul&gt;
+            </code>
+        </div>
+    </section>
+
+    <section id="numbered-list">
+        <h3>Numbered List</h3>
+        <ol>
+            <li>I am item 1</li>
+            <li>I am item 2</li>
+            <li>I am item 3</li>
+        </ol>
+
+        <div class="code-container">
+            <code>
+                &lt;ol&gt;
+            </code>
+            <code class="indent-1">
+                &lt;li&gt;I am item 1&lt;/li&gt;
+            </code>
+            <code class="indent-1">
+                &lt;li&gt;I am item 2&lt;/li&gt;
+            </code>
+            <code class="indent-1">
+                &lt;li&gt;I am item 3&lt;/li&gt;
+            </code>
+            <code>
+                &lt;/ol&gt;
+            </code>
+        </div>
+    </section>
+</section>
+
+</body>
+
+</html>

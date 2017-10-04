@@ -1,0 +1,177 @@
+/*https://www.dogstudio.co/ <- main inspiration for hamburger menu*/
+
+/*hamburger and main nav code*/
+/*https://codepen.io/designcouch/pen/Atyop*/
+.hamburger {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger div {
+    transition: background-color 0.4s, transform 0.4s;
+    width: 100%;
+    height: 20%;
+    background-color: #423C97;
+}
+
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/transform?v=a*/
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin*/
+.hamburger div:nth-child(1) {
+    transform-origin: right bottom;
+    transform: rotate(0deg);
+}
+
+.hamburger div:nth-child(3) {
+    transform-origin: right top;
+    transform: rotate(0deg);
+}
+
+body.menu-open {
+    overflow: hidden;
+}
+
+body.menu-open .hamburger div:nth-child(1) {
+    transform: rotate(-45deg);
+    background-color: white;
+}
+
+body.menu-open .hamburger div:nth-child(2) {
+    background-color: transparent;
+}
+
+body.menu-open .hamburger div:nth-child(3) {
+    transform: rotate(45deg);
+    background-color: white;
+}
+
+nav .link-container {
+    display: none;
+}
+
+nav .link-container a {
+    color: #423C97;
+    text-decoration: none;
+    font-weight: 800;
+    border-bottom-style: solid;
+    border-bottom-width: 0.1rem;
+    border-bottom-color: transparent;
+    transition: color 0.4s, border-bottom-color 0.4s;
+    margin-left: 0.7rem;
+}
+
+nav .link-container a:focus, nav .link-container a:hover {
+    color: #423C97;
+    border-bottom-color: #423C97;
+}
+
+nav .link-container a.selected:focus, nav .link-container a.selected:hover {
+    border-bottom-color: #F6772B;
+}
+
+nav .link-container a.selected {
+    color: #F6772B;
+    border-bottom-style: solid;
+    border-bottom-width: 0.1rem;
+    font-style: italic;
+}
+
+body.menu-open header nav {
+    background-color: rgba(37, 35, 66, 0.8);
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body.menu-open header nav .link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body.menu-open header nav .link-container a {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+
+}
+
+/* This may be redundant as there are no hover states on mobile devices, but in the future this may change.*/
+body.menu-open header nav .link-container a:hover, body.menu-open header nav .link-container a:focus {
+    border-color: white;
+}
+
+body.menu-open header nav .link-container a.selected {
+    color: #F6772B;
+}
+
+body.menu-open header nav .link-container a.selected:hover, body.menu-open header nav .link-container a.selected:focus {
+    border-color: #F6772B;
+}
+
+/*anchor section*/
+
+a {
+    color: #423C97;
+    font-weight: bold;
+}
+
+a:focus, a:hover {
+    color: #F6772B;
+    text-decoration: none;
+}
+
+/*nav link section*/
+a.nav-link {
+    font-weight: normal;
+    padding: 0.5rem 1rem;
+    background-color: #3C7532;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    text-align: center;
+}
+
+a.nav-link:hover, a.nav-link:focus {
+    background-color: #4F8E44;
+}
+
+@media (min-width: 54.125em) {
+    .hamburger {
+        display: none;
+    }
+
+    nav .link-container {
+        display: block;
+    }
+
+    body.menu-open {
+        overflow: auto;
+    }
+
+    body.menu-open header nav {
+        background-color: transparent;
+        opacity: 1;
+        position: relative;
+        height: auto;
+        width: auto;
+    }
+
+    body.menu-open header nav .link-container {
+        display: block;
+    }
+
+    body.menu-open header nav .link-container a {
+        color: #423C97;
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+}
