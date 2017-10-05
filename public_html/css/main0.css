@@ -1,0 +1,281 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.img-product {
+  height: auto;
+  max-width: 250px;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-bottom: 0.15em solid #333;
+}
+
+section h2 {
+  margin-top: 0;
+  margin-bottom: 0.0;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+nav {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 0.15em solid #333;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
+ul.citations {
+  margin-left: 0.25em;
+  padding-left: 0.25em;
+}
+
+ul.citations li {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 1em;
+}
+
+ul.citations li strong {
+  font-weight: normal;
+  font-style: italic;
+}
+
+cite {
+  font-style: normal;
+}
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+.input-field {
+  display: inline-block;
+  padding: 0.4em 5em;
+  color: rgb(0, 0, 0);
+  background-color: #FFF;
+  border-color: rgb(0, 0, 0);
+  border-radius: 0.25em;
+  text-decoration: none;
+  font-family: "Oswald-Extralight";
+}
+
+.in-textlink {
+  display: inline-block;
+  color: #f87f01;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.in-textlink:hover, .in-textlink:focus {
+  color: #feca01;
+}
+
+.button-submit {
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  color: #FFF;
+  background-color: #f87f01;
+  border-radius: 0.25em;
+  text-decoration: none;
+  font-family: "Oswald-Regular";
+  -webkit-transition: background-color 0.1s ease-out;
+  transition: background-color 0.5s ease-out;
+  border-style: none;
+}
+
+.button-submit:hover, .button-submit:focus {
+  background-color: #feca01;
+}
+
+.button-reset {
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  color: #FFF;
+  background-color: #435969;
+  border-radius: 0.25em;
+  text-decoration: none;
+  font-family: "Oswald-Regular";
+  -webkit-transition: background-color 0.1s ease-out;
+  transition: background-color 0.5s ease-out;
+  border-style: none;
+}
+
+.button-reset:hover, .button-reset:focus {
+  background-color: #212931;
+}
+
+/* Styling for the navigation button */
+
+.button-nav {
+  display: inline-block;
+  padding: 0.8em 2em;
+  color: #FFF;
+  background-color: #f87f01;
+  border-radius: 0.25em;
+  text-decoration: none;
+  font-family: "Oswald-Regular";
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #feca01;
+}
+
+label {
+  font-family: "Oswald-Regular";
+}
+
+/* */
+
+input[type=text] {
+  padding: 0.9em 5em;
+  display: inline-block;
+  border: 0.1em solid #ccc;
+  font-family: "Oswald-ExtraLight";
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+
+body {
+  font-family: "Oswald-ExtraLight", sans-serif;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: "Warpaint", sans-serif;
+  margin-top: 0.4em;
+  margin-bottom: 0.2em;
+}
+
+.h1-product {
+  font-size: 1.3em;
+  font-family: "Warpaint", sans-serif;
+  margin-top: 0.4em;
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: "Oswald-Regular", sans-serif;
+}
+
+.h2-product {
+  font-size: 1em;
+  font-family: "Oswald-Regular", sans-serif;
+}
+
+h3 {
+  font-size: 1em;
+  font-family: "Oswald-Regular", sans-serif;
+}
+
+.p1 {
+  max-width: 50rem;
+}
+
+.p2 {
+  max-width: 30rem;
+}
+
+.p3 {
+  max-width: 20rem;
+}
+
+/* https://www.w3schools.com/css/css_list.asp*/
+
+ul.bullet {
+  list-style-type: circle;
+  font-family: "Oswald-Regular", sans-serif;
+}
+
+ol.numbers {
+  font-family: "Oswald-ExtraLight", sans-serif;
+}
+
+/*
+  COMBINED ELEMENTS -------------------
+*/
+
+.color-swatch-orange {
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  color: #FFF;
+  background-color: #f87f01;
+  border-radius: 0.25em;
+  text-decoration: none;
+  font-family: "Oswald-Regular";
+  -webkit-transition: background-color 0.1s ease-out;
+  transition: background-color 0.5s ease-out;
+  border-style: none;
+}
+
+.color-swatch-blue {
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  color: #FFF;
+  background-color: #435969;
+  border-radius: 0.25em;
+  text-decoration: none;
+  font-family: "Oswald-Regular";
+  -webkit-transition: background-color 0.1s ease-out;
+  transition: background-color 0.5s ease-out;
+  border-style: none;
+}
+
+.color-swatch-darkblue {
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  color: #FFF;
+  background-color: #212931;
+  border-radius: 0.25em;
+  text-decoration: none;
+  font-family: "Oswald-Regular";
+  -webkit-transition: background-color 0.1s ease-out;
+  transition: background-color 0.5s ease-out;
+  border-style: none;
+}
+
+.color-swatch-yellow {
+  display: inline-block;
+  padding: 0.5em 1.2em;
+  color: #FFF;
+  background-color: #feca01;
+  border-radius: 0.25em;
+  text-decoration: none;
+  font-family: "Oswald-Regular";
+  -webkit-transition: background-color 0.1s ease-out;
+  transition: background-color 0.5s ease-out;
+  border-style: none;
+}
