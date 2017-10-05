@@ -10,7 +10,7 @@ input[type="text"] {
 
 /*https://www.w3schools.com/css/css_attribute_selectors.asp <- for attribute selection*/
 input[type="reset"], input[type="submit"] {
-    background-color: #423C97;
+    background-color: #F29F4E;
     padding: 0.5rem 1rem;
     border: none;
     color: white;
@@ -19,5 +19,5 @@ input[type="reset"], input[type="submit"] {
 }
 
 input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
-    background-color: #736dc5;
+    background-color: #FBCD00;
 }
