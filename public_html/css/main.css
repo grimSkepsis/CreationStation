@@ -128,3 +128,8 @@ em {
         max-width: 20rem;
     }
 }
+
+#sitemap img{
+  height: 100%;
+  width: 100%;
+}
