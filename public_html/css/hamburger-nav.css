@@ -15,7 +15,7 @@
     transition: background-color 0.4s, transform 0.4s;
     width: 100%;
     height: 20%;
-    background-color: #423C97;
+    background-color: #F29F4E;
 }
 
 /*https://developer.mozilla.org/en-US/docs/Web/CSS/transform?v=a*/
@@ -53,7 +53,7 @@ nav .link-container {
 }
 
 nav .link-container a {
-    color: #423C97;
+    color: #646464;
     text-decoration: none;
     font-weight: 800;
     border-bottom-style: solid;
@@ -64,16 +64,16 @@ nav .link-container a {
 }
 
 nav .link-container a:focus, nav .link-container a:hover {
-    color: #423C97;
-    border-bottom-color: #423C97;
+    color: #646464;
+    border-bottom-color: #646464;
 }
 
 nav .link-container a.selected:focus, nav .link-container a.selected:hover {
-    border-bottom-color: #F6772B;
+    border-bottom-color: #F29F4E;
 }
 
 nav .link-container a.selected {
-    color: #F6772B;
+    color: #F29F4E;
     border-bottom-style: solid;
     border-bottom-width: 0.1rem;
     font-style: italic;
@@ -114,18 +114,18 @@ body.menu-open header nav .link-container a.selected {
 }
 
 body.menu-open header nav .link-container a.selected:hover, body.menu-open header nav .link-container a.selected:focus {
-    border-color: #F6772B;
+    border-color: #F29F4E;
 }
 
 /*anchor section*/
 
 a {
-    color: #423C97;
+    color: #F29F4E;
     font-weight: bold;
 }
 
 a:focus, a:hover {
-    color: #F6772B;
+    color: #FCCD05;
     text-decoration: none;
 }
 
@@ -133,7 +133,7 @@ a:focus, a:hover {
 a.nav-link {
     font-weight: normal;
     padding: 0.5rem 1rem;
-    background-color: #3C7532;
+    background-color: #F29F4E;
     color: white;
     text-decoration: none;
     transition: background-color 0.2s;
@@ -141,7 +141,7 @@ a.nav-link {
 }
 
 a.nav-link:hover, a.nav-link:focus {
-    background-color: #4F8E44;
+    background-color: #FCCD05;
 }
 
 @media (min-width: 54.125em) {
