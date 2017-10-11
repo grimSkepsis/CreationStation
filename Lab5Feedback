@@ -1,0 +1,13 @@
+-make it without javascript. site is tested with JS turned off. therefore, make mobile menu default to open and to not need js
+
+-elaborated on the concept…do the fine details (confirmation pages,..) more complete experience, we have more attention so expect more attention to be paid
+
+
+-templates: how many? 
+—major chunks of functionality visible
+—-more than what was in the styleGuide
+
+-what are the slots that stuff can stick into?
+—achieves generality by not being content specific
+
+-learning experience by applying styleGuide..and see if it makes sense
