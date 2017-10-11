@@ -1,6 +1,6 @@
 label {
-    color: #423C97;
-    font-weight: 600;
+    color: #646464;
+    font-weight: 500;
 
 }
 
@@ -10,7 +10,7 @@ input[type="text"] {
 
 /*https://www.w3schools.com/css/css_attribute_selectors.asp <- for attribute selection*/
 input[type="reset"], input[type="submit"] {
-    background-color: #F29F4E;
+    background-color: #4B90E2;
     padding: 0.5rem 1rem;
     border: none;
     color: white;
@@ -19,5 +19,5 @@ input[type="reset"], input[type="submit"] {
 }
 
 input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
-    background-color: #FBCD00;
+    background-color: #F29F4E;
 }
