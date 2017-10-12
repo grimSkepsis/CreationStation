@@ -1,6 +1,6 @@
 .equipment-figure img {
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .equipment-figure {
@@ -32,6 +32,7 @@
 
     .equipment-description p {
         order: 2;
+        font-size: 0.95rem;
         max-width: 50ch;
     }
 
