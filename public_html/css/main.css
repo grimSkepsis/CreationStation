@@ -4,7 +4,8 @@
 @import "form.css";
 @import "text-styles.css";
 @import "header.css";
-
+@import "section.css";
+@import "portrait.css";
 *, *::after, *::before {
     box-sizing: border-box;
 }
