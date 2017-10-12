@@ -45,7 +45,7 @@ section.style-section {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    padding: 2rem 2rem;
+    /*padding: 2rem 2rem;*/
 }
 
 .wireframe-container {
@@ -122,7 +122,7 @@ em {
 @media (min-width: 54.125em) {
     body {
         font-family: 'Open Sans', sans-serif;
-        padding: 7em 7em;
+        /*padding: 7em 7em;*/
     }
     .wireframe-container figure img {
         max-width: 20rem;
