@@ -50,6 +50,7 @@ header figure {
 }
 header img{
     width: 100%;
+    display: block;
 }
 header button{
     text-transform: uppercase;
