@@ -1,0 +1,9 @@
+.nav-button {
+    background-color: #4B90E2;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.12rem;
+}

@@ -1,4 +1,4 @@
-@import "equipment-listing.css";
+@import "listing.css";
 @import "hamburger-nav.css";
 @import "grid.css";
 @import "form.css";
@@ -6,6 +6,7 @@
 @import "header.css";
 @import "section.css";
 @import "portrait.css";
+@import "nav-button.css";
 *, *::after, *::before {
     box-sizing: border-box;
 }

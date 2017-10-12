@@ -1,0 +1,83 @@
+/*.equipment-figure img {*/
+/*max-width: 100%;*/
+/*}*/
+
+/*.equipment-figure {*/
+/*margin: 0;*/
+/*}*/
+
+/*.equipment-description {*/
+/*display: flex;*/
+/*flex-direction: column;*/
+/*}*/
+
+/*.equipment-description h3 {*/
+/*order: 1;*/
+/*}*/
+
+/*.equipment-description .nav-link {*/
+/*max-width: 6rem;*/
+/*order: 2;*/
+/*}*/
+
+/*.equipment-description p {*/
+/*order: 3;*/
+/*}*/
+
+/*@media (min-width: 54.125em) {*/
+/*.equipment-figure {*/
+/*margin-right: 1rem;*/
+/*}*/
+
+/*.equipment-description p {*/
+/*order: 2;*/
+/*}*/
+
+/*.equipment-description .nav-link {*/
+/*order: 3;*/
+/*}*/
+/*}*/
+
+.listing img {
+    max-width: 100%
+}
+
+.listing figure {
+    margin: 2rem;
+}
+
+.listing .grid div:nth-child(2) {
+    position: relative;
+    display: -ms-flex;
+    display: flex;
+
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    padding: 2rem 2em 2rem 2rem;
+
+    justify-content: space-between;
+}
+
+.listing .grid div:nth-child(2) .nav-button {
+    align-self: flex-end;
+}
+
+
+
+
+@media (min-width: 54.125em) {
+    .listing .grid div:nth-child(2):before {
+        content:"";
+        background: grey;
+        position: absolute;
+        bottom: 10%;
+        top: 10%;
+        left: 0;
+        width: 1px;;
+    }
+
+    .listing .grid div:nth-child(2) {
+        padding: 2rem 10rem 2rem 2rem;
+    }
+}
