@@ -1,0 +1,23 @@
+.portrait figure img {
+    max-width: 7rem;
+    border-radius: 50%;
+}
+
+.portrait {
+    display: -ms-flexbox;
+    display: flex;
+
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 4rem 1rem 1rem 1rem;
+}
+
+.portrait p {
+    text-align: center;
+    max-width: 100%;
+}

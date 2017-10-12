@@ -25,6 +25,14 @@
     flex-basis: 66%;
 }
 
+.col.two-fifth {
+    flex-basis: 40%;
+}
+
+.col.three-fifth {
+    flex-basis: 60%;
+}
+
 @media (min-width: 54.125em) {
     .grid {
         display: flex;

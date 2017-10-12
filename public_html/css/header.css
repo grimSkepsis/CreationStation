@@ -1,18 +1,75 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /*display: flex;*/
+    /*justify-content: space-between;
+    align-items: center;*/
+
 }
 
 header .logo {
-    max-width: 3rem;
+    /*max-width: 3rem;*/
 }
 
 .header-branding {
     display: flex;
-    align-items: center;
+    padding: 1em 4em 3em 4em;
+    text-transform: uppercase;
+    width: 100%;
+    /*align-items: center;*/
+}
+
+.header-branding h3 {
+    margin: 0px;
+    width: 25%;
 }
 
 .header-branding figure {
     margin-left: 0;
+}
+
+.link-container{
+    width: 100%;
+}
+
+nav{
+  width: 75%;
+}
+
+nav a{
+    margin-right: 3%;
+    float:left;
+}
+
+.home-image-header{
+  /*overflow: hidden;*/
+  position: relative;
+  height: auto;
+}
+header figure {
+    width: 100%;
+    margin:0;
+}
+header img{
+    width: 100%;
+    display: block;
+}
+header button{
+    text-transform: uppercase;
+    background-color: #4F92E0;
+    color:white;
+    padding:5px 20px;
+    border: none;
+    border-radius: 1px;
+}
+.transparent-overlay{
+    background: rgba(0,0,0,0.2);
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    top:0;
+    padding: 20% 5%;
+    padding-right: 10%;
+    width: 35%;
+}
+.transparent-overlay h2 {
+    color: white;
 }
