@@ -1,49 +1,16 @@
-/*.equipment-figure img {*/
-/*max-width: 100%;*/
-/*}*/
 
-/*.equipment-figure {*/
-/*margin: 0;*/
-/*}*/
-
-/*.equipment-description {*/
-/*display: flex;*/
-/*flex-direction: column;*/
-/*}*/
-
-/*.equipment-description h3 {*/
-/*order: 1;*/
-/*}*/
-
-/*.equipment-description .nav-link {*/
-/*max-width: 6rem;*/
-/*order: 2;*/
-/*}*/
-
-/*.equipment-description p {*/
-/*order: 3;*/
-/*}*/
-
-/*@media (min-width: 54.125em) {*/
-/*.equipment-figure {*/
-/*margin-right: 1rem;*/
-/*}*/
-
-/*.equipment-description p {*/
-/*order: 2;*/
-/*}*/
-
-/*.equipment-description .nav-link {*/
-/*order: 3;*/
-/*}*/
-/*}*/
+.listing {
+    position: relative;
+    margin-bottom: 2rem;
+    display: block;
+}
 
 .listing img {
     max-width: 100%
 }
 
 .listing figure {
-    margin: 2rem;
+    margin: 0;
 }
 
 .listing .grid div:nth-child(2) {
@@ -54,19 +21,14 @@
     -ms-flex-direction: column;
     flex-direction: column;
 
-    padding: 2rem 2em 2rem 2rem;
-
     justify-content: space-between;
 }
 
-.listing .grid div:nth-child(2) .nav-button {
-    align-self: flex-end;
+.listing .grid {
+    display: block;
 }
 
-
-
-
-@media (min-width: 54.125em) {
+@media (min-width: 75.125em) {
     .listing .grid div:nth-child(2):before {
         content:"";
         background: grey;
@@ -77,7 +39,16 @@
         width: 1px;;
     }
 
-    .listing .grid div:nth-child(2) {
-        padding: 2rem 10rem 2rem 2rem;
+    .listing .grid {
+        display: flex;
     }
+
+    .listing .grid div:nth-child(2) {
+        padding: 2rem 15rem 2rem 3rem;
+    }
+
+    .listing figure {
+        padding-right: 3rem;
+    }
+
 }
