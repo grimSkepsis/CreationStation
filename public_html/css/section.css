@@ -1,9 +1,20 @@
-section h2 {
-    margin: 0;
+
+section .title-container {
     position: relative;
-    left: 2rem;
-    top: 2rem;
-    display: inline-block;
+    left: 0;
+    right: 0;
+    display: -ms-flex;
+    display: flex;
+    padding: 2rem;
+}
+
+section .title-container.justified {
+    justify-content: flex-start;
+}
+
+section .title-container.centered {
+    justify-content: center;
+    align-content: center;
 }
 
 .arrow-container {
@@ -24,5 +35,21 @@ section h2 {
     height: 0;
     border-left: 2rem solid transparent;
     border-right: 2rem solid transparent;
-    border-top: 2rem solid #f00;
+    border-top: 2rem solid;
+}
+
+section:nth-child(even) {
+    background-color: white;
+}
+
+section:nth-child(even) .arrow-down {
+    border-top-color: white;
+}
+
+section:nth-child(odd) {
+    background-color: #D9D9D9;
+}
+
+section:nth-child(odd) .arrow-down {
+    border-top-color: #D9D9D9;
 }

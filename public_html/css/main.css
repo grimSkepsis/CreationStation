@@ -7,6 +7,7 @@
 @import "section.css";
 @import "portrait.css";
 @import "nav-button.css";
+@import "image-button.css";
 *, *::after, *::before {
     box-sizing: border-box;
 }
@@ -101,10 +102,6 @@ figcaption {
 
 .color-swatch-container div:nth-child(5) {
     background-color: #646464;
-}
-
-section {
-    margin-bottom: 5rem;
 }
 
 em {
