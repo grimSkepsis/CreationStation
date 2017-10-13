@@ -1,0 +1,14 @@
+.image-button figure img {
+    max-width: 100%;
+}
+
+.image-button figure {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-button .nav-button {
+    width: 100%;
+    padding: 2rem 3rem;
+    flex: 1;
+}
