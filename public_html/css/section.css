@@ -45,11 +45,11 @@ section:nth-child(even) .arrow-down {
     border-top-color: white;
 }
 
-section:nth-child(odd) {
+section.alternate:nth-child(odd) {
     background-color: #D9D9D9;
 }
 
-section:nth-child(odd) .arrow-down {
+section.alternate:nth-child(odd) .arrow-down {
     border-top-color: #D9D9D9;
 }
 
