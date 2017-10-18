@@ -18,11 +18,11 @@
 }
 
 .col.one-third {
-    flex-basis: 33%;
+    flex: 0 0 33%;
 }
 
 .col.two-third {
-    flex-basis: 66%;
+    flex: 0 0 66%;
 }
 
 .col.fill {
@@ -30,11 +30,15 @@
 }
 
 .col.one-sixth {
-    flex-basis: 16.66%;
+    flex: 0 0 16.66%;
 }
 
-.grid .col {
-    margin-right: 0;
+.col {
+     padding-left: 1rem;
+     padding-top: 1rem;
+ }
+.col:last-child {
+    padding-right: 1rem;
 }
 
 @media (min-width: 54.125em) {
@@ -42,8 +46,4 @@
         display: flex;
     }
 
-    .grid .col:not(:last-child) {
-        margin-right: 1rem;
-        margin-bottom: 0;
-    }
 }
