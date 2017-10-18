@@ -1,8 +1,11 @@
 
 .listing {
     position: relative;
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
     display: block;
+    border-width: 0.002rem;
+    border-color: #000;
+    border-style: none;
 }
 
 .listing img {
@@ -30,13 +33,17 @@
 
 @media (min-width: 75.125em) {
     .listing .grid div:nth-child(2):before {
-        content:"";
+        content: "";
         background: grey;
         position: absolute;
         bottom: 10%;
         top: 10%;
         left: 0;
         width: 1px;;
+    }
+
+    .listing {
+        border-style: solid;
     }
 
     .listing .grid {

@@ -25,16 +25,25 @@
     flex-basis: 66%;
 }
 
-.col.two-fifth {
-    flex-basis: 40%;
+.col.fill {
+    flex-grow: 1;
 }
 
-.col.three-fifth {
-    flex-basis: 60%;
+.col.one-sixth {
+    flex-basis: 16.66%;
+}
+
+.grid .col {
+    margin-right: 0;
 }
 
 @media (min-width: 54.125em) {
     .grid {
         display: flex;
+    }
+
+    .grid .col:not(:last-child) {
+        margin-right: 1rem;
+        margin-bottom: 0;
     }
 }
