@@ -7,4 +7,10 @@
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.12rem;
     font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+}
+.nav-button:focus, .nav-button:hover {
+    background-color: #F29F4E;
+    color:white;
 }

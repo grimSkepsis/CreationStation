@@ -47,8 +47,6 @@
 
 .days a:hover, a:focus {
     background-color: #D9D9D9;
-    border-style: solid;
-    border-width: 0.002rem;
 }
 
 .days  p {
@@ -91,6 +89,13 @@
     padding-left: 2rem;
     border-color:#646464;
     text-decoration: none;
+    color: #646464;
+    font-weight: normal;
+}
+
+.time-card:focus, .time-card:hover {
+    color: #D9D9D9;
+    background-color: #646464;
 }
 
 
