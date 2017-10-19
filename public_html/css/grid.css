@@ -17,6 +17,10 @@
     flex: 1;
 }
 
+.grid .col.bleed {
+    padding: 0;
+}
+
 .col.one-third {
     flex: 0 0 33%;
 }
@@ -54,5 +58,4 @@
     .grid {
         display: flex;
     }
-
 }
