@@ -121,7 +121,6 @@ em {
 @media (min-width: 54.125em) {
     body {
         font-family: 'Open Sans', sans-serif;
-        /*padding: 7em 7em;*/
     }
     .wireframe-container figure img {
         max-width: 20rem;
