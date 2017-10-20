@@ -4,3 +4,9 @@ footer .col.one-fourth{
   padding-left: 10%;
   text-align: center;
 }
+footer{
+  border-top: 1px solid grey;
+}
+address {
+  font-style: normal;
+}
