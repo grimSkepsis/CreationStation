@@ -42,6 +42,9 @@
 .col.one-fourth{
   flex: 0 0 25%;
 }
+.col.one-fifth{
+  flex: 0 0 20%;
+}
 
 .col {
      padding-left: 1rem;
