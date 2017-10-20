@@ -1,14 +1,3 @@
-header {
-    /*display: flex;*/
-    /*justify-content: space-between;
-    align-items: center;*/
-
-}
-
-header .logo {
-    /*max-width: 3rem;*/
-}
-
 .header-branding {
     display: flex;
     padding: 2rem 1rem;
@@ -60,4 +49,8 @@ header button{
 }
 .transparent-overlay h2 {
     color: white;
+}
+header a{
+  color:white;
+  font-weight: normal; 
 }
