@@ -11,14 +11,14 @@ header .logo {
 
 .header-branding {
     display: flex;
-    padding: 1em 4em 3em 4em;
+    padding: 2rem 1rem;
     text-transform: uppercase;
     width: 100%;
-    /*align-items: center;*/
+    justify-content: space-between;
 }
 
 .header-branding h3 {
-    margin: 0px;
+    margin: 0;
     width: 25%;
 }
 
@@ -26,18 +26,6 @@ header .logo {
     margin-left: 0;
 }
 
-.link-container{
-    width: 100%;
-}
-
-nav{
-  width: 75%;
-}
-
-nav a{
-    margin-right: 3%;
-    float:left;
-}
 
 .home-image-header{
   /*overflow: hidden;*/
