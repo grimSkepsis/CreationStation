@@ -8,6 +8,7 @@ input[type="text"] {
     display: block;
     border: 1px solid #646464;
     padding: 0.5rem 1rem;
+    margin-bottom: 0.9rem;
 
 }
 
