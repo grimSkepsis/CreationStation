@@ -1,10 +1,10 @@
 .social{
   display: inline-block;
 }
-.post{
-  background-color:#F0F0F0;
-  width: 50px;
-  height: 250px;
-  margin: 10px 10px 50px 10px;
-
+img.social{
+  width: 100%;
+  height: auto;
+}
+figure {
+  margin: 0px;
 }
