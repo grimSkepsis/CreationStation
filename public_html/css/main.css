@@ -9,6 +9,8 @@
 @import "nav-button.css";
 @import "image-button.css";
 @import "calendar.css";
+@import "location.css";
+@import "footer.css";
 *, *::after, *::before {
     box-sizing: border-box;
 }

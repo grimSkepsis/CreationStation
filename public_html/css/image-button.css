@@ -9,6 +9,10 @@
     flex-direction: column;
 }
 
+.map {
+  padding-left: 5%;
+}
+
 .image-button figure {
     display: flex;
     flex-direction: column;
