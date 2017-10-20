@@ -52,5 +52,11 @@ header button{
 }
 header a{
   color:white;
-  font-weight: normal; 
+  font-weight: normal;
+}
+@media screen and (max-width: 800px) {
+  .transparent-overlay {
+    visibility: hidden;
+    clear: both;
+  }
 }
