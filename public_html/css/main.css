@@ -137,6 +137,12 @@ em {
     }
 }
 
+@media (min-width: 48.3125em) {
+    main {
+        padding-top: 7.857125rem;
+    }
+}
+
 #sitemap img {
   height: 100%;
   width: 100%;
