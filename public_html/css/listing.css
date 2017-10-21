@@ -28,21 +28,22 @@
 @media (min-width: 54.125em) {
     .listing .grid div:nth-child(2):before {
         content: "";
-        background: grey;
+        background: #ddd;
         position: absolute;
         bottom: 10%;
         top: 10%;
         left: 0;
-        width: 1px;;
+        width: 1px;
     }
 
     .listing {
-        border-style: solid;
-        border-bottom-style: none;
+        /*border-style: solid;
+        border-bottom-style: none;*/
+        border-bottom: 0.002rem solid #ddd;
     }
 
     .listing:last-child {
-        border-bottom-style: solid;
+        /*border-bottom-style: solid;*/
     }
 
     .listing .grid div:nth-child(2) {
