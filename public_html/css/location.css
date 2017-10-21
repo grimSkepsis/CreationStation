@@ -1,6 +1,5 @@
 .location{
   display: inline-block;
-  padding-left: 10%;
 }
 hr {
   width: 30%;
@@ -8,4 +7,13 @@ hr {
 }
 a{
   text-decoration-line: none;
+}
+
+.map img {
+  width: 100%;
+}
+
+.hours-listing {
+  display: flex;
+  justify-content: space-between;
 }

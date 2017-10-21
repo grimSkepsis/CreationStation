@@ -1,9 +1,19 @@
+header {
+    position:fixed;
+    background-color: white;
+    z-index: 3;
+    width: 100%;
+    box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 3px rgba(12,13,14,0.1), 0 4px 20px rgba(12,13,14,0.035), 0 1px 1px rgba(12,13,14,0.025);
+}
+
 .header-branding {
     display: flex;
     padding: 2rem 1rem;
     text-transform: uppercase;
     width: 100%;
     justify-content: space-between;
+    max-width: 72rem;
+    margin:auto;
 }
 
 .header-branding h3 {
@@ -15,7 +25,9 @@
     margin-left: 0;
 }
 
-
+.home-image-header img {
+    width:100%;
+}
 .home-image-header{
   /*overflow: hidden;*/
   position: relative;
@@ -40,12 +52,11 @@ header button{
 .transparent-overlay{
     background: rgba(0,0,0,0.2);
     position: absolute;
-    bottom: 0;
-    left: 5%;
-    top:0;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    top: 0;
     padding: 20% 5%;
-    padding-right: 10%;
-    width: 35%;
 }
 .transparent-overlay h2 {
     color: white;
@@ -54,9 +65,10 @@ header a{
   color:white;
   font-weight: normal;
 }
-@media screen and (max-width: 800px) {
-  .transparent-overlay {
-    visibility: hidden;
-    clear: both;
-  }
+
+@media (min-width: 54.125em) {
+    .transparent-overlay {
+        left: 5%;
+        right:60%;
+    }
 }

@@ -1,5 +1,5 @@
 .image-button figure img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .image-button {
@@ -9,15 +9,12 @@
     flex-direction: column;
 }
 
-.map {
-  padding-left: 5%;
-}
-
 .image-button figure {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0;
+    width:100%;
 }
 
 .image-button .nav-button {
