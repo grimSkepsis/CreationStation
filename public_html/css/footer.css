@@ -18,3 +18,6 @@ address {
   max-width: 72rem;
   margin: auto;
 }
+footer .mobile-centered-container {
+  text-align: center;
+}
