@@ -1,0 +1,10 @@
+.social{
+  display: inline-block;
+}
+img.social{
+  width: 100%;
+  height: auto;
+}
+figure {
+  margin: 0px;
+}
