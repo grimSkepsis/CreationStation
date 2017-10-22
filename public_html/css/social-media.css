@@ -8,3 +8,11 @@ img.social{
 figure {
   margin: 0px;
 }
+
+.social-links {
+  display: flex;
+}
+
+.social-links h4 {
+  margin-right: 2rem;
+}
