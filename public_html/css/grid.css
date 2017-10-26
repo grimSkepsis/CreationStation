@@ -46,6 +46,21 @@
   flex: 0 0 20%;
 }
 
+
+
+.form-division {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.center {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+
 .col {
      padding-left: 1rem;
      padding-top: 1rem;
@@ -66,6 +81,14 @@
 
 .padded-container {
     padding: 1rem 1rem 0 1rem;
+}
+
+.padded-form-headings {
+    margin-bottom: 0.6rem;
+}
+
+.padded-order-button {
+    margin-top: 1.5rem;
 }
 
 .mobile-bleed {
@@ -91,6 +114,7 @@
     flex-direction: column;
 }
 
+
 @media (min-width: 54.125em) {
     .grid {
         display: flex;
@@ -103,4 +127,5 @@
     .mobile-centered-container {
         display: block;
     }
+
 }
