@@ -12,6 +12,8 @@
 @import "location.css";
 @import "footer.css";
 @import "social-media.css";
+@import "style-guide.css";
+@import "citations.css";
 *, *::after, *::before {
     box-sizing: border-box;
 }
@@ -31,33 +33,8 @@ main {
     padding-top: 5.857125rem;
 }
 
-/*code section*/
-.code-container {
-    display: flex;
-    flex-direction: column;
-    background-color: #343436;
-    color: white;
-    padding: 1em 1em;
-    flex: 1 1 auto;
-}
 
-code {
-    word-wrap: break-word;
-}
-code.indent-1 {
-    margin-left: 1rem;
-}
 
-code.indent-2 {
-    margin-left: 2rem;
-}
-
-code.indent-3 {
-    margin-left: 3rem;
-}
-code.indent-4 {
-    margin-left: 4rem;
-}
 section.style-section {
     display: flex;
 
@@ -69,20 +46,6 @@ section.style-section {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    /*padding: 2rem 2rem;*/
-}
-
-.wireframe-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.wireframe-container.extra-wide figure {
-    margin: 0;
-}
-
-.wireframe-container.extra-wide figure img {
-    max-width: 100%;
 }
 
 figcaption {
@@ -93,50 +56,9 @@ figcaption {
     max-width: 100%;
 }
 
-.color-swatch-container {
-    width: 100%;
-}
-
-.color-swatch div {
-    height: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
-
-.color-swatch:nth-of-type(1) div {
-    background-color: #4B90E2;
-}
-
-.color-swatch:nth-of-type(2) div {
-    background-color: #D9D9D9;
-}
-
-.color-swatch:nth-of-type(3) div {
-    background-color: #FBCD00;
-}
-
-.color-swatch:nth-of-type(4) div {
-    background-color: #F29F4E;
-}
-
-.color-swatch:nth-of-type(5) div {
-    background-color: #646464;
-}
 
 em {
     font-weight: bold;
-}
-
-/*utility section*/
-.spaced-top {
-    margin-top: 1em;
-}
-
-
-.citation-list a {
-    word-wrap: break-word;
 }
 
 @media (min-width: 54.125em) {

@@ -1,0 +1,4 @@
+.citation-list a {
+    word-wrap: break-word;
+    word-break: break-all;
+}
