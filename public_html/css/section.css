@@ -21,7 +21,7 @@ section .title-container.centered {
     position: relative;
     left: 0;
     right: 0;
-    bottom: -5.8rem;
+    bottom: -4rem;
     display: -ms-flex;
     display: flex;
     height: 2rem;
@@ -56,7 +56,7 @@ section.alternate:nth-child(odd) .arrow-down {
 
 
 section {
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 
 section:last-child {

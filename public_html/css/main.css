@@ -19,7 +19,7 @@
 main {
     max-width: 72rem;
     margin: auto;
-    padding-top: 5.875rem;
+    padding-top: 7.875rem;
 }
 
 /*code section*/
@@ -135,11 +135,8 @@ em {
     .wireframe-container figure img {
         max-width: 20rem;
     }
-}
-
-@media (min-width: 48.3125em) {
     main {
-        padding-top: 7.857125rem;
+        padding-top: 5.857125rem;
     }
 }
 

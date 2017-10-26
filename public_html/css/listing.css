@@ -5,6 +5,12 @@
     border-width: 0.002rem;
     border-color: #000;
     border-style: none;
+    padding-top:3rem;
+}
+
+.listing:not(:last-of-type) {
+    padding: 3rem 0;
+    border-bottom: 0.02rem solid #ddd;
 }
 
 .listing img {
@@ -34,16 +40,6 @@
         top: 10%;
         left: 0;
         width: 1px;
-    }
-
-    .listing {
-        /*border-style: solid;
-        border-bottom-style: none;*/
-        border-bottom: 0.002rem solid #ddd;
-    }
-
-    .listing:last-child {
-        /*border-bottom-style: solid;*/
     }
 
     .listing .grid div:nth-child(2) {
