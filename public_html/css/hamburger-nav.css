@@ -16,6 +16,12 @@
     z-index: 2;
 }
 
+.menu-open .nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .hamburger div {
     transition: background-color 0.4s, transform 0.4s;
     width: 100%;
@@ -53,11 +59,7 @@ body.menu-open .hamburger div:nth-child(3) {
     background-color: white;
 }
 
-nav .link-container {
-    display: none;
-}
-
-nav .link-container a {
+.link-container a {
     color: #646464;
     text-decoration: none;
     font-weight: 500;
@@ -65,20 +67,19 @@ nav .link-container a {
     border-bottom-width: 0.1rem;
     border-bottom-color: transparent;
     transition: color 0.4s, border-bottom-color 0.4s;
-    margin-left: 1.5rem;
     font-size: 1.2em;
 }
 
-nav .link-container a:focus, nav .link-container a:hover {
+.link-container a:focus, .link-container a:hover {
     color: #646464;
     border-bottom-color: #646464;
 }
 
-nav .link-container a.selected:focus, nav .link-container a.selected:hover {
+.link-container a.selected:focus, .link-container a.selected:hover {
     border-bottom-color: #F29F4E;
 }
 
-nav .link-container a.selected {
+.link-container a.selected {
     color: #F29F4E;
     border-bottom-style: solid;
     border-bottom-width: 0.1rem;
@@ -97,29 +98,30 @@ body.menu-open header nav {
     z-index: 1;
 }
 
-body.menu-open header nav .link-container {
+body.menu-open header .link-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-body.menu-open header nav .link-container a {
+body.menu-open header .link-container a {
     color: white;
     font-size: 2rem;
     margin-bottom: 4rem;
+    margin-left: 0;
 
 }
 
 /* This may be redundant as there are no hover states on mobile devices, but in the future this may change.*/
-body.menu-open header nav .link-container a:hover, body.menu-open header nav .link-container a:focus {
+body.menu-open header .link-container a:hover, body.menu-open header .link-container a:focus {
     border-color: white;
 }
 
-body.menu-open header nav .link-container a.selected {
+body.menu-open header .link-container a.selected {
     color: #F29F4E;
 }
 
-body.menu-open header nav .link-container a.selected:hover, body.menu-open header nav .link-container a.selected:focus {
+body.menu-open header .link-container a.selected:hover, body.menu-open header .link-container a.selected:focus {
     border-color: #F29F4E;
 }
 
@@ -150,13 +152,14 @@ a.nav-link:hover, a.nav-link:focus {
     background-color: #F29F4E;
 }
 
-@media (min-width: 54.125em) {
-    .hamburger {
+
+    .hidden {
+        visibility: hidden;
         display: none;
     }
-
-    nav .link-container {
-        display: block;
+@media (min-width: 54.125em) {
+    .link-container {
+        display: flex;
     }
 
     body.menu-open {
@@ -171,11 +174,11 @@ a.nav-link:hover, a.nav-link:focus {
         width: auto;
     }
 
-    body.menu-open header nav .link-container {
+    body.menu-open header .link-container {
         display: block;
     }
 
-    body.menu-open header nav .link-container a {
+    body.menu-open header .link-container a {
         color: #423C97;
         font-size: 1rem;
         margin-bottom: 0;
