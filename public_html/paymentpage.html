@@ -46,168 +46,165 @@
 
 
 
-    <section>
-      <div class="grid centered-container ">
+      <section>
+        <div class="grid centered-container ">
 
-        <div class="col two-third">
+          <div class="col two-third">
 
-          <h4>ORDER SUMMARY</h4>
+            <h4>ORDER SUMMARY</h4>
 
-          <div class="info-box">
+            <div class="info-box">
 
 
-            <div class="form-division">
-              <div class="form-row">
-                <div class="padded-form-headings price">
-                  <h3> TOTAL PRICE</h3>
-                  <h3>$ 30.00</h3>
+              <div class="form-division">
+                <div class="form-row">
+                  <div class="padded-form-headings price">
+                    <h3> TOTAL PRICE</h3>
+                    <h3>$ 30.00</h3>
+                  </div>
                 </div>
-              </div>
-            <div class="form-division center">
+                <div class="form-division center">
 
-              <div class="form-row ">
-                <div class="padded-form-headings summary">
-                  <h4> RESERVING</h4>
-                  <p> Laser Cutter </p>
-                </div>
-              </div>
-              <div class="form-row ">
-                <div class="padded-form-headings summary ">
-                  <h4> DATE</h4>
-                  <P>October 16, 2017</P>
-                </div>
-              </div>
+                  <div class="form-row ">
+                    <div class="padded-form-headings summary">
+                      <h4> RESERVING</h4>
+                      <p> Laser Cutter </p>
+                    </div>
+                  </div>
+                  <div class="form-row ">
+                    <div class="padded-form-headings summary ">
+                      <h4> DATE</h4>
+                      <P>October 16, 2017</P>
+                    </div>
+                  </div>
 
-              <div class="form-row ">
-                <div class="padded-form-headings summary ">
-                  <h4> TIME SLOT</h4>
-                  <P> 9 am - 10 am</P>
+                  <div class="form-row ">
+                    <div class="padded-form-headings summary ">
+                      <h4> TIME SLOT</h4>
+                      <P> 9 am - 10 am</P>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-  </div>
 
-    </section>
+      </section>
 
-    <section>
+      <section>
 
-      <div class="grid centered-container">
+        <div class="grid centered-container">
 
-        <div class="col two-third">
+          <div class="col two-third">
 
-          <h4>PAYMENT METHOD</h4>
-          <div class="info-box">
-
-            <div class="padded-form-headings">
-
-              <label>Name on credit card</label>
-            </div>
-            <div class="form-row">
-              <input type="text" placeholder="Bob Builder">
-            </div>
-
-
-            <div class="padded-form-headings">
-              <label>Credit Card Number</label>
-            </div>
-
-            <div class="form-row">
-              <input type="text" placeholder="1234 4567 6789">
-            </div>
-
-
-            <div>
-              <figure class="image-creditcard">
-                <img src="img/credit-cards.png" alt " visa, mastercard,american express">
-              </figure>
-            </div>
-
-
-
-            <div class="form-division">
+            <h4>PAYMENT METHOD</h4>
+            <div class="info-box">
 
               <div class="padded-form-headings">
-                <label>CVV</label>
+
+                <label for="nameOnCreditCard">Name on credit card</label>
+              </div>
+              <div class="form-row">
+                <input id="nameOnCreditCard" type="text" placeholder="Bob Builder" required>
+                <span class="validity"></span>
+              </div>
 
 
-                <div class="form-row ">
-                  <input type="text" placeholder="1234">
+              <div class="padded-form-headings">
+                <label for="creditCard">Credit Card Number</label>
+              </div>
+
+              <div class="form-row">
+                <input id="creditCard" type="number" pattern="[0-9]{16}" maxlength="16" placeholder="9999 9999 9999 9999" required>
+                <span class="validity"></span>
+              </div>
+
+
+              <div>
+                <figure class="image-creditcard">
+                  <img src="img/credit-cards.png" alt " visa, mastercard,american express">
+                </figure>
+              </div>
+
+
+
+              <div class="form-division">
+                <div class="padded-form-headings">
+                  <label for="cvv">CVV</label>
+                  <div class="form-row ">
+                    <!-- Used type="tel" instead of type="number" to be able to use maxlength and be mobile friendly(tel causes keyboard to appear) -->
+                    <!-- https://stackoverflow.com/questions/8354975/how-can-i-limit-possible-inputs-in-a-html5-number-element -->
+                    <!-- https://regex101.com/r/BolhOP/1 -->
+                    <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel -->
+                    <input id="cvv" type="tel" pattern="[^()/><\][\\\x22,;|]+" maxlength="3" placeholder="123" required>
+                    <span class="validity"></span>
+                  </div>
+                </div>
+
+                <div class="padded-form-headings">
+                  <label>Expiry Date</label>
+
+
+                  <div class="form-row">
+                    <input type="text" placeholder="MM/YY" required>
+                    <span class="validity"></span>
+                  </div>
                 </div>
               </div>
 
-              <div class="padded-form-headings">
-                <label>Expiry Date</label>
-
-
-                <div class="form-row">
-                  <input type="text" placeholder="MM/YY">
-                </div>
-              </div>
-            </div>
-
-            <div class="padded-order-button">
-              <a href="">
+              <div class="padded-order-button">
+                <a href="">
                         <button class="nav-button">CONFIRM RESERVATION</button>
                     </a>
-            </div>
+              </div>
 
+            </div>
           </div>
+
         </div>
 
-      </div>
-
-    </section>
-
-
-
-
-
-
-
-
+      </section>
   </main>
   <footer>
-      <div class="footer-content">
+    <div class="footer-content">
 
 
-          <div class="padded-container">
-              <div class="grid gutters">
-                  <div class="col one-fourth">
-                      <div class="mobile-centered-container">
-                          <a href="index.html">
-                              <h3>
+      <div class="padded-container">
+        <div class="grid gutters">
+          <div class="col one-fourth">
+            <div class="mobile-centered-container">
+              <a href="index.html">
+                <h3>
                                   CREATION STATION
                               </h3>
-                          </a>
-                      </div>
-                  </div>
-                  <div class="col one-fourth">
-                      <div class="mobile-centered-container">
-                          <a href="https://github.com/grimSkepsis/CreationStation"><h4>
+              </a>
+            </div>
+          </div>
+          <div class="col one-fourth">
+            <div class="mobile-centered-container">
+              <a href="https://github.com/grimSkepsis/CreationStation"><h4>
                               Check us out on GitHub
                           </h4></a>
-                      </div>
-                  </div>
-                  <div class="col one-fourth">
-                      <div class="mobile-centered-container">
-                          <a href="style_guide.html"><h4>
+            </div>
+          </div>
+          <div class="col one-fourth">
+            <div class="mobile-centered-container">
+              <a href="style_guide.html"><h4>
                               Browse our style-guide
                           </h4></a>
-                      </div>
-                  </div>
-                  <div class="col one-fourth">
-                      <div class="mobile-centered-container">
-                          <a href="citations.html"><h4>
+            </div>
+          </div>
+          <div class="col one-fourth">
+            <div class="mobile-centered-container">
+              <a href="citations.html"><h4>
                               View our citations
                           </h4></a>
-                      </div>
-                  </div>
-              </div>
+            </div>
           </div>
+        </div>
       </div>
+    </div>
   </footer>
 </body>
 
