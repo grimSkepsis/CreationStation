@@ -7,7 +7,6 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans%7CRoboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="js/main.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -15,18 +14,26 @@
 
 <header>
     <div class="header-branding">
-        <a href="index.html"><h3>
-            Creation Station
-        </h3></a>
-        <nav>
-            <div class="link-container">
-                <a href="index.html">Company Site</a>
-                <a href="style_guide.html" class="selected">Style Guide</a>
-                <a href="citations.html">Citations</a>
-                <a href="https://github.com/grimSkepsis/CreationStation">Git Hub</a>
+        <div class="padded-container">
+            <div class="grid gutters">
+                <div class="col">
+                    <a href="index.html"><h3>
+                        Creation Station
+                    </h3></a></div>
+                <div class="col two-third">
+                    <nav  class="link-container">
+                        <div class="nav-link"><a href="index.html">Company Site</a></div>
+                        <div class="nav-link"><a href="style_guide.html"  class="selected">Style Guide</a></div>
+                        <div class="nav-link"><a href="citations.html">Citations</a></div>
+                        <div class="nav-link"><a href="https://github.com/grimSkepsis/CreationStation">Git Hub</a></div>
+                    </nav>
+                </div>
             </div>
-        </nav>
-        <div class="hamburger">
+        </div>
+
+
+
+        <div class="hamburger nav-toggle hidden">
             <div></div>
             <div></div>
             <div></div>
@@ -60,11 +67,11 @@
 
                         <section id="nav-button">
                             <h3>Navigation Buttons</h3>
-                            <a href="#" class="nav-link">Nav Button</a>
+                            <a href="#" class="nav-button">Nav Button</a>
 
                             <div class="code-container spaced-top">
 
-                                <code>&lt;a class="nav-link"&gt;Rent&lt;/a&gt;</code>
+                                <code>&lt;a class="nav-button"&gt;Nav Button&lt;/a&gt;</code>
                             </div>
                         </section>
 
@@ -537,6 +544,7 @@
         </div>
     </div>
 </footer>
+<script src="js/main.js"></script>
 </body>
 
 </html>

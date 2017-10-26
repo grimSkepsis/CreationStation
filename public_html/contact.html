@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans%7CRoboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="js/main.js"></script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -15,19 +15,26 @@
 <body>
 <header>
     <div class="header-branding">
-        <a href="index.html"><h3>
-            Creation Station
-        </h3></a>
-        <nav>
-            <div class="link-container">
-                <a href="index.html">Home</a>
-                <a href="tools.html">Tools</a>
-                <a href="events.html">Classes/Events</a>
-                <a href="contact.html" class="selected">Contact</a>
-                <a href="account.html">My Account</a>
+        <div class="padded-container">
+            <div class="grid gutters">
+                <div class="col">
+                    <a href="index.html"><h3>
+                        Creation Station
+                    </h3></a></div>
+                <div class="col two-third">
+                    <nav  class="link-container">
+                        <div class="nav-link"><a href="index.html">Home</a></div>
+                        <div class="nav-link"><a href="tools.html">Tools</a></div>
+                        <div class="nav-link"><a href="events.html">Classes/Events</a></div>
+                        <div class="nav-link"><a href="contact.html"  class="selected">Contact</a></div>
+                    </nav>
+                </div>
             </div>
-        </nav>
-        <div class="hamburger">
+        </div>
+
+
+
+        <div class="hamburger nav-toggle hidden">
             <div></div>
             <div></div>
             <div></div>
@@ -137,6 +144,7 @@
         </div>
     </div>
 </footer>
+<script src="js/main.js"></script>
 </body>
 
 </html>

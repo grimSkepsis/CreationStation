@@ -8,33 +8,39 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/borderbox.css">
-  <script src="js/main.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-  <header>
-    <div class="header-branding">
-      <h3>
+<header>
+  <div class="header-branding">
+    <div class="padded-container">
+      <div class="grid gutters">
+        <div class="col">
+          <a href="index.html"><h3>
             Creation Station
-        </h3>
-      <nav>
-        <div class="link-container">
-          <a href="index.html">Home</a>
-          <a href="tools.html" class="selected">Tools</a>
-          <a href="events.html">Classes/Events</a>
-          <a href="contact.html">Contact</a>
-          <a href="account.html">My Account</a>
+          </h3></a></div>
+        <div class="col two-third">
+          <nav  class="link-container">
+            <div class="nav-link"><a href="index.html">Home</a></div>
+            <div class="nav-link"><a href="tools.html"  class="selected">Tools</a></div>
+            <div class="nav-link"><a href="events.html">Classes/Events</a></div>
+            <div class="nav-link"><a href="contact.html">Contact</a></div>
+          </nav>
         </div>
-      </nav>
-      <div class="hamburger">
-        <div></div>
-        <div></div>
-        <div></div>
       </div>
     </div>
-  </header>
+
+
+
+    <div class="hamburger nav-toggle hidden">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</header>
 
   <main>
 
@@ -206,6 +212,7 @@
       </div>
     </div>
   </footer>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
