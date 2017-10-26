@@ -17,3 +17,6 @@ a{
   display: flex;
   justify-content: space-between;
 }
+div:nth-of-type(odd).hours-listing{
+  background-color: rgba(222,222,222,0.15);
+}
