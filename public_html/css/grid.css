@@ -3,7 +3,7 @@
     display: block;
 }
 
-.grid.demo .col {
+.grid.demo .col div {
     display: flex;
     justify-content: center;
     align-items: center;

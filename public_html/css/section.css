@@ -58,7 +58,3 @@ section.alternate:nth-child(odd) .arrow-down {
 section {
     padding-bottom: 2rem;
 }
-
-section:last-child {
-    padding-bottom: 6rem;
-}

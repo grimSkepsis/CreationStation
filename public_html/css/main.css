@@ -46,7 +46,9 @@ code.indent-2 {
 code.indent-3 {
     margin-left: 3rem;
 }
-
+code.indent-4 {
+    margin-left: 4rem;
+}
 section.style-section {
     display: flex;
 
@@ -86,7 +88,7 @@ figcaption {
     width: 100%;
 }
 
-.color-swatch-container div {
+.color-swatch div {
     height: 3rem;
     display: flex;
     align-items: center;
@@ -94,23 +96,23 @@ figcaption {
     color: white;
 }
 
-.color-swatch-container div:nth-child(1) {
+.color-swatch:nth-of-type(1) div {
     background-color: #4B90E2;
 }
 
-.color-swatch-container div:nth-child(2) {
+.color-swatch:nth-of-type(2) div {
     background-color: #D9D9D9;
 }
 
-.color-swatch-container div:nth-child(3) {
+.color-swatch:nth-of-type(3) div {
     background-color: #FBCD00;
 }
 
-.color-swatch-container div:nth-child(4) {
+.color-swatch:nth-of-type(4) div {
     background-color: #F29F4E;
 }
 
-.color-swatch-container div:nth-child(5) {
+.color-swatch:nth-of-type(5) div {
     background-color: #646464;
 }
 
