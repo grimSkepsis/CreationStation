@@ -10,6 +10,7 @@ input[type="text"] {
     padding: 0.5rem 1rem;
     margin-bottom: 0.9rem;
 
+
 }
 
 /*https://www.w3schools.com/css/css_attribute_selectors.asp <- for attribute selection*/
@@ -25,3 +26,35 @@ input[type="reset"], input[type="submit"] {
 input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
     background-color: #F29F4E;
 }
+
+.form-row {
+  display: flex;
+
+}
+
+.form-row input {
+
+flex: 1;
+margin-bottom: 1.5rem;
+margin-right: 1.5rem;
+
+
+}
+
+.form-row .summary{
+  margin-right: 2rem;
+}
+
+.form-row .price{
+  margin-right: 4rem;
+}
+
+
+
+
+*@media (min-width: 35.125em) {
+
+  .form-row .summary {
+      margin-right: 0rem;
+      padding-right: 0rem;
+  }*/
