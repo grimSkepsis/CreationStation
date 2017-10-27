@@ -54,11 +54,6 @@
   align-items: flex-start;
 }
 
-.center {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-}
 
 
 .col {
