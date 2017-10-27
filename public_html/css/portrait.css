@@ -3,6 +3,9 @@
     border-radius: 50%;
 }
 
+.portrait figure {
+    max-width: 100%;
+}
 .portrait {
     display: -ms-flexbox;
     display: -webkit-box;
