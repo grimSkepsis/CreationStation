@@ -3,30 +3,45 @@ label {
     font-weight: 500;
 
 }
-input:invalid+span:after {
+/*input:invalid+span:after {
   position: absolute; content: '✖';
   padding-left: 5px;
   color: #8b0000;
-}
+}*/
 
 input:valid+span:after {
   position: absolute;
   content: '✓';
   padding-left: 5px;
   color: #009000;
+
 }
 
 input[type="text"] {
     display: block;
-    border: 1px solid #646464;
+    border: 0.5px solid #646464;
     padding: 0.5rem 1rem;
     margin-bottom: 0.9rem;
-
-
 }
+
+input[type="tel"] {
+    display: block;
+    border: 0.5px solid #646464;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.9rem;
+}
+
+input[type="number"] {
+    display: block;
+    border: 0.5px solid #646464;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.9rem;
+}
+
 /*https://stackoverflow.com/questions/26024771/styling-a-input-type-number*/
 input[type=number]::-webkit-inner-spin-button {
   -webkit-appearance: none;
+  border: 0.5px solid #646464;
 }
 
 /*https://www.w3schools.com/css/css_attribute_selectors.asp <- for attribute selection*/
@@ -54,15 +69,6 @@ flex: 1;
 margin-bottom: 1.5rem;
 margin-right: 1.5rem;
 
-
-}
-
-.form-row .summary{
-  margin-right: 2rem;
-}
-
-.form-row .price{
-  margin-right: 4rem;
 }
 
 
