@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head lang="en">
-    <title>Creation Station - Tools</title>
+    <title>Creation Station - Contact</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans%7CRoboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -43,8 +43,13 @@
 </header>
 <main>
     <section>
+        <div class="justified title-container">
+            <h1>CONTACT INFORMATION</h1>
+        </div>
+    </section>
+    <section>
         <div class="title-container justified">
-            <h1>LOCATION</h1>
+            <h2>LOCATION</h2>
         </div>
         <div class="padded-container">
             <div class="grid gutters">
@@ -58,42 +63,36 @@
                 </div>
                 <div class="col">
                     <div class="grid gutters">
-                        <div class="col one-third">
-                            <h4>
+                        <div class="col two-third">
+                            <h4 class="location-info-heading">
                                 ADDRESS
                             </h4>
-                            <p>123 Something St.</p>
-                            <p>City, V3M 1X4 B.C.</p>
+                            <address>Creation Station, 123 Something St. Vancouver, V3M 1X4 B.C.</address>
                         </div>
-                        <div class="col one-third">
-                            <h4>
+                        <div class="col">
+                            <h4 class="location-info-heading">
                                 PHONE
                             </h4>
-                            <p>604 - 567 - 8901</p>
-                            <a href="tel:604-567-8901">CALL NOW</a>
+                            <a href="tel:604-567-8901" class="phone-number">604 - 567 - 8901</a>
 
                         </div>
                     </div>
                     <div class="grid gutters">
                         <div class="col one-half">
-                            <h4>
+                            <h4 class="location-info-heading">
                                 HOURS
                             </h4>
                             <div class="hours-listing">
-                                <p>Monday - Friday</p>
-                                <p>9 - 5</p>
+                                <p>Monday - Friday <em>9am-5pm</em></p>
                             </div>
                             <div class="hours-listing">
-                                <p>Saturday</p>
-                                <p>10 - 4</p>
+                                <p>Saturday <em>10am-4pm</em></p>
                             </div>
                             <div class="hours-listing">
-                                <p>Sunday</p>
-                                <p>Closed</p>
+                                <p>Sunday <em>Closed</em></p>
                             </div>
                             <div class="hours-listing">
-                                <p>Holidays</p>
-                                <p>Closed</p>
+                                <p>Holidays <em>Closed</em></p>
                             </div>
                         </div>
                     </div>
@@ -102,6 +101,27 @@
 
         </div>
         <hr/>
+    </section>
+    <section>
+        <div class="title-container justified">
+            <h2>CONTACT US</h2>
+        </div>
+        <div class="padded-container">
+            <div class="grid gutters">
+                <div class="col">
+                    <p class="description">Have a question or concern? Want to comment on an experience you had in our space? Please feel free to send us a message, we value your feedback.</p>
+                    <form action="contact.html">
+                        <label for="email-field">Return Email (Optional)</label>
+                        <input id="email-field" type="text">
+                        <label for="subject">Subject</label>
+                        <input type="text" class="subject-input" id="subject">
+                        <label for="message-body">Message</label>
+                        <textarea id="message-body"></textarea>
+                        <button type="submit" class="nav-button spaced-top">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
 </main>
 <footer>

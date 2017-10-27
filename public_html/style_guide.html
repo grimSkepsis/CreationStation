@@ -115,18 +115,13 @@
                                 hamburger
                                 menu on
                                 smaller
-                                screens. Note: the hamburger menu in this example will appear oddly placed within the
-                                screen
-                                when
-                                pressed,
-                                for a proper demonstration please try the actual menu in the header of this style
+                                screens. Note: the hamburger menu in this example will not appear as there can only be one per page. Instead what is shown below represents what the nav will look like if javascript is disabled.
                                 guide.</p>
-                            <nav>
-                                <div class="link-container">
-                                    <a href="index.html">Wireframes</a>
-                                    <a href="style_guide.html" class="selected">Style Guide</a>
-                                    <a href="citations.html">Citations</a>
-                                </div>
+                            <nav class="link-container">
+                                <div class="nav-link"><a href="index.html">Company Site</a></div>
+                                <div class="nav-link"><a href="style_guide.html"  class="selected">Style Guide</a></div>
+                                <div class="nav-link"><a href="citations.html">Citations</a></div>
+                                <div class="nav-link"><a href="https://github.com/grimSkepsis/CreationStation">Git Hub</a></div>
                             </nav>
                             <div class="hamburger">
                                 <div></div>
@@ -134,11 +129,12 @@
                                 <div></div>
                             </div>
                             <div class="code-container spaced-top">
-                                <code>&lt;nav&gt;</code>
-                                <code class="indent-1">&lt;a class="selected"
-                                    href="index.html"&gt;Wireframes&lt;/a&gt;</code>
-                                <code class="indent-1">&lt;a href="style_guide.html" class="selected"&gt;Style Guide&lt;/a&gt;</code>
-                                <code class="indent-1">&lt;a href="citations.html"&gt;Citations&lt;/a&gt;</code>
+                                <code>&lt;nav class="link-container"&gt;</code>
+                                <code class="indent-1">&lt;div class="nav-link"&gt;&lt;a class="selected"
+                                    href="index.html"&gt;Company Site&lt;/a&gt;&lt;/div&gt;</code>
+                                <code class="indent-1">&lt;div class="nav-link"&gt;&lt;a href="style_guide.html" class="selected"&gt;Style Guide&lt;/a&gt;&lt;/div&gt;</code>
+                                <code class="indent-1">&lt;div class="nav-link"&gt;&lt;a href="citations.html"&gt;Citations&lt;/a&gt;&lt;/div&gt;</code>
+                                <code class="indent-1">&lt;div class="nav-link"&gt;&lt;a href="https://github.com/grimSkepsis/CreationStation"&gt;Git Hub&lt;/a&gt;&lt;/div&gt;</code>
                                 <code>&lt;/nav&gt;</code>
                                 <code>&lt;div class="hamburger"&gt;</code>
                                 <code class="indent-1">&lt;div&gt;&lt;/div&gt;</code>

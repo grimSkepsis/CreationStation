@@ -15,10 +15,15 @@ figure {
 
 .social-links h4 {
   margin-right: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 @media (min-width: 54.125em) {
   .social-links {
     display: flex;
+  }
+  .social-links h4 {
+    margin-top: 0;
   }
 }

@@ -17,6 +17,22 @@ a{
   display: flex;
   justify-content: space-between;
 }
-div:nth-of-type(odd).hours-listing{
-  background-color: rgba(222,222,222,0.15);
+
+.hours-listing p {
+  margin-top: 0;
+}
+
+.location-info-heading {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.phone-number {
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+address {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }

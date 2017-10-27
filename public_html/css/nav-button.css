@@ -9,6 +9,7 @@
     font-weight: normal;
     text-decoration: none;
     text-align: center;
+    display: inline-block;
 }
 .nav-button:focus, .nav-button:hover {
     background-color: #F29F4E;
