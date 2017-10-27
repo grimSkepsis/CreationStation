@@ -6,6 +6,7 @@ hr {
   margin-top: 5%;
 }
 a{
+  -webkit-text-decoration-line: none;
   text-decoration-line: none;
 }
 
@@ -14,7 +15,11 @@ a{
 }
 
 .hours-listing {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 

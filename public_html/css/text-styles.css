@@ -16,16 +16,16 @@ h2 {
 
 /*this is for CREATION STATION on nav bar*/
 h3 {
-  color: #646464;
-  font-weight: 900;
-  font-size: 1.5rem;
+    color: #646464;
+    font-weight: 900;
+    font-size: 1.5rem;
 }
 
 /*this is for product titles*/
 h4 {
-  color: #646464;
-  font-weight: 600;
-  font-size: 1.2rem;
+    color: #646464;
+    font-weight: 600;
+    font-size: 1.2rem;
 
 }
 
@@ -34,5 +34,5 @@ h1, h2, h3, h4 {
 }
 
 body {
-  color: #646464;
+    color: #646464;
 }

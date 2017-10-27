@@ -3,14 +3,15 @@
     color: #50AA74;
 }
 #comments{
-    width:75%;
     height:auto;
     border: 3px solid #cccccc;
     font-family: 'Roboto', sans-serif;
 }
 #confirmation-center{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
 }
-.textarea{
+.textarea {
     margin-bottom: 1rem;
 }

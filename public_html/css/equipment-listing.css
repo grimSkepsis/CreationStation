@@ -8,20 +8,31 @@
 }
 
 .equipment-description {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
 .equipment-description h3 {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
     order: 1;
 }
 
 .equipment-description .nav-link {
     max-width: 6rem;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
     order: 2;
 }
 
 .equipment-description p {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
     order: 3;
 }
 
@@ -30,14 +41,18 @@
         margin-right: 1rem;
     }
 
-/* https://stackoverflow.com/questions/26973570/setting-a-max-character-length-in-css*/
+    /* https://stackoverflow.com/questions/26973570/setting-a-max-character-length-in-css*/
     .equipment-description p {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
         order: 2;
         font-size: 0.95rem;
         max-width: 50ch;
     }
 
     .equipment-description .nav-link {
+        -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
         order: 3;
     }
 }
