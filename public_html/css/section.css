@@ -6,6 +6,9 @@ section .title-container {
     display: -ms-flex;
     display: flex;
 }
+div.sub p, div.sub h2{
+    margin:0;
+}
 
 section .title-container.justified {
     justify-content: flex-start;
