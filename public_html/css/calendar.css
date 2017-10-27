@@ -137,8 +137,7 @@
 }
 
 .time-card:focus, .time-card:hover {
-    color: #D9D9D9;
-    background-color: #646464;
+    background-color: silver;
 }
 
 
@@ -174,6 +173,17 @@
 .time-selector a .nav-button {
     width: 100%;
 }
+
+.time-card .material-icons {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #646464;
+}
+
+.time-card.selected .material-icons {
+    color: #50AA74;
+}
+
 @media (min-width: 54.125em) {
     .time-card {
         max-height: 4rem;
