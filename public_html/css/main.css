@@ -14,6 +14,8 @@
 @import "social-media.css";
 @import "style-guide.css";
 @import "citations.css";
+@import "confirmation.css";
+
 *, *::after, *::before {
     box-sizing: border-box;
 }

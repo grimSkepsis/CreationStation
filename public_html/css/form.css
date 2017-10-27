@@ -16,7 +16,7 @@ input:valid+span:after {
   color: #009000;
 }
 
-input[type="text"] {
+input[type="text"], input[type="email"] {
     display: block;
     border: 1px solid #646464;
     padding: 0.5rem 1rem;
@@ -27,10 +27,6 @@ input[type="text"] {
 /*https://stackoverflow.com/questions/26024771/styling-a-input-type-number*/
 input[type=number]::-webkit-inner-spin-button {
   -webkit-appearance: none;
-  /*display: block;
-  border: 1px solid #646464;
-  padding: 0.5rem 1rem;
-  margin-bottom: 0.9rem;*/
 }
 
 /*https://www.w3schools.com/css/css_attribute_selectors.asp <- for attribute selection*/
