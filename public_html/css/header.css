@@ -29,50 +29,12 @@ header {
     margin-left: 0;
 }
 
-.home-image-header img {
-    width:100%;
+.splash-header h1 {
+    padding: 2rem 0;
+    text-align: center;
 }
-.home-image-header{
-  /*overflow: hidden;*/
-  position: relative;
-  height: auto;
-}
-header figure {
-    width: 100%;
-    margin:0;
-}
-header img{
-    width: 100%;
-    display: block;
-}
-header button{
-    text-transform: uppercase;
-    background-color: #4F92E0;
-    color:white;
-    padding:5px 20px;
-    border: none;
-    border-radius: 1px;
-}
-.transparent-overlay{
-    background: rgba(0,0,0,0.2);
-    position: absolute;
-    bottom: 5px;
-    left: 0;
-    right: 0;
-    top: 0;
-    padding: 20% 5%;
-}
-.transparent-overlay h2 {
-    color: white;
-}
+
 header a{
   color:white;
   font-weight: normal;
-}
-
-@media (min-width: 54.125em) {
-    .transparent-overlay {
-        left: 5%;
-        right:60%;
-    }
 }
