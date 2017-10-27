@@ -4,16 +4,23 @@ section .title-container {
     left: 0;
     right: 0;
     display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 section .title-container.justified {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
     padding-left: 1rem;
 }
 
 section .title-container.centered {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -ms-flex-line-pack: center;
     align-content: center;
 }
 
@@ -23,9 +30,15 @@ section .title-container.centered {
     right: 0;
     bottom: -4rem;
     display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 2rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 

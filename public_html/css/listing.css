@@ -24,10 +24,18 @@
 .listing .grid div:nth-child(2) {
     position: relative;
     display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 
     -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
     flex-direction: column;
+
+    -webkit-box-pack: justify;
+
+    -ms-flex-pack: justify;
 
     justify-content: space-between;
 }

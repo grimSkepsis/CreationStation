@@ -21,6 +21,8 @@ figure {
 
 @media (min-width: 54.125em) {
   .social-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .social-links h4 {

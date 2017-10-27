@@ -14,7 +14,10 @@
 @import "social-media.css";
 @import "style-guide.css";
 @import "citations.css";
+/* IMPORTANT NOTE: webkit prefixes were added using https://autoprefixer.github.io/*/
+
 *, *::after, *::before {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -23,7 +26,12 @@ html, body {
 }
 
 body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -36,11 +44,15 @@ main {
 
 
 section.style-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 
 }
 
 .example-container {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
     flex: 1 1 auto;
 }
 
@@ -72,6 +84,6 @@ em {
 }
 
 #sitemap img {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
