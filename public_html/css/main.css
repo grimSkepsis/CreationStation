@@ -14,6 +14,7 @@
 @import "social-media.css";
 @import "style-guide.css";
 @import "citations.css";
+@import "confirmation.css";
 /* IMPORTANT NOTE: webkit prefixes were added using https://autoprefixer.github.io/*/
 
 *, *::after, *::before {

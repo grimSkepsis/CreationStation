@@ -1,0 +1,16 @@
+.material-icons{
+    font-size: 4rem;
+    color: #50AA74;
+}
+#comments{
+    width:75%;
+    height:auto;
+    border: 3px solid #cccccc;
+    font-family: 'Roboto', sans-serif;
+}
+#confirmation-center{
+    display:flex;
+}
+.textarea{
+    margin-bottom: 1rem;
+}
